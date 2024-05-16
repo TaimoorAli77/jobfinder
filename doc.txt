@@ -1,0 +1,29 @@
+*Job finder app
+
+npm create vite@latest
+*change port in vite.confib.js
+server: {
+    port: 3000,
+  }
+  npm install
+
+  *search tailwindcss vite install
+
+  npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p
+* infile tailwindcss.config.js add
+  /** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+**Next Day**
+npm run dev
